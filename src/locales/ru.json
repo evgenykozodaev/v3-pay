@@ -1,0 +1,50 @@
+{
+    "app": {
+        "pages": {
+            "pay": {
+                "submit": "Оплатить",
+                "monthAndYear": "Месяц и год",
+                "validThru": "Срок действия",
+                "validMonth": "Месяц действия",
+                "validYear": "Год действия",
+                "cardNumber": "Номер карты",
+                "cardHolder": "Владелец карты",
+                "latinCharacters": "Латиницей",
+                "code": "Code",
+                "cvcFormat": "Три цифры с обратной стороны карты",
+                "card": "Карта",
+                "successButton": "Вернуться на сайт",
+                "errorButton": "Вернуться назад",
+                "reset": "Попробовать снова",
+                "order": "Заказ",
+                "orderNumber": "Номер заказа",
+                "customerInfo": "Информация о плательщике",
+                "country": "Страна",
+                "language": "Язык",
+                "town": "Город",
+                "address": "Адрес",
+                "zip": "Почтовый индекс",
+                "phone": "Номер телефона",
+                "email": "Email"
+            }
+        }
+    },
+    "errors": {
+        "cardNumberTooShort": "Номер карты должен быть не менее 12 символов",
+        "cardNumberTooLong": "Номер карты должен быть не более 12 символов",
+        "cardNumberLuhn": "Номер карты не прошёл валидацию по алгоритму Luhn",
+        "cardDateFormat": "Формат даты неверен",
+        "cardMonthFormat": "Месяц должен быть числом в пределах от 01 до 12",
+        "cardYearFormat": "Год должен быть числом в пределах от 00 до 99",
+        "cardDateExpired": "Карта просрочена",
+        "cardCVCFormat": "Неправильный CVC",
+        "cardHolderEmpty": "Не введен владелец карты",
+        "cardHolderFormat": "Поле должно содержать только символы",
+        "zipCodeFormat": "Формат невалиден. Допустимы только цифры",
+        "townFormat": "Формат невалиден. Допустимы только буквы",
+        "countryFormat": "Формат невалиден, 3 латинских буквы",
+        "emailFormat": "Формат невалиден",
+        "phoneFormat": "Формат невалиден",
+        "languageFormat": "Формат невалиден, 2 латинских буквы"
+    }
+}

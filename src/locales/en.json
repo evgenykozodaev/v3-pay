@@ -1,0 +1,50 @@
+{
+    "app": {
+        "pages": {
+            "pay": {
+                "submit": "Submit",
+                "monthAndYear": "Month and Year",
+                "validThru": "Valid thru",
+                "validMonth": "Valid month",
+                "validYear": "Valid year",
+                "cardNumber": "Card number",
+                "cardHolder": "Cardholder name",
+                "latinCharacters": "Latin characters",
+                "code": "Code",
+                "cvcFormat": "Three digits from the back side of the card",
+                "card": "Card",
+                "successButton": "Go back",
+                "errorButton": "Go back",
+                "reset": "Try again",
+                "order": "Order",
+                "orderNumber": "Order number",
+                "customerInfo": "Customer information",
+                "country": "Country",
+                "language": "Language",
+                "town": "Town",
+                "address": "Address",
+                "zip": "ZIP Code",
+                "phone": "Phone Number",
+                "email": "Email"
+            }
+        }
+    },
+    "errors": {
+        "cardNumberTooShort": "Card number should be at least 12 characters",
+        "cardNumberTooLog": "Card number should not be longer then 12",
+        "cardNumberLuhn": "Card number has not pass Luhn validation algorithm",
+        "cardDateFormat": "Invalid date format",
+        "cardMonthFormat": "Month should be a number between 01 and 12",
+        "cardYearFormat": "Year should be a number between 00 and 99",
+        "cardDateExpired": "Card expired",
+        "cardCVCFormat": "Invalid CVC",
+        "cardHolderEmpty": "Cardholder field is empty",
+        "cardHolderFormat": "Cardholder field should contain only characters",
+        "zipCodeFormat": "Invalid format. Only digits are available",
+        "townFormat": "Invalid format. Only letters are available",
+        "countryFormat": "Invalid format. Enter 3 latin characters",
+        "emailFormat": "Invalid format",
+        "phoneFormat": "Invalid format",
+        "languageFormat": "Invalid format. Enter 2 latin characters"
+    }
+}
